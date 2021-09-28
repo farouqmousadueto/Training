@@ -5,8 +5,6 @@ trigger:
    paths:
       include:
          - Training/0_Application/Training.Web/*
-pool:
-  vmImage: ubuntu-latest
 
 variables:
   - name: projectPath
