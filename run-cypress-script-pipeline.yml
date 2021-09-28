@@ -16,7 +16,8 @@ steps:
      versionSpec: 12.x
 
   - script: |
-      yarn install --verbose
+      apt update
+      apt install yarn
       workingDirectory: ${{variables.projectPath}}
 
   - script: |
