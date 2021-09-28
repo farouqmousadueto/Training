@@ -18,7 +18,6 @@ steps:
   - script: |
       sudo apt update
       sudo apt install yarn
-      workingDirectory: ${{variables.projectPath}}
 
   - script: |
       yarn build
